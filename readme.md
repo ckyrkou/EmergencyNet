@@ -15,6 +15,12 @@ The network can also be ported on andoid and itegraded with UAV applications to 
 
 <img src="./Figure/Android_App.jpg" height="512">
 
+## Model Download
+We provide three models:
+- EmegencyNet: The ACFF based convolutional neural network ([model📜 ]())
+- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ]())
+- EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ]())
+
 ## Citation Information
 Please cite the following paper if you find this is useful for your work: 
 
