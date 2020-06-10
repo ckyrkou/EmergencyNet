@@ -11,6 +11,8 @@ The ACFF macro block is used as a starting point to build a deep neural network 
 
 <img src="./Figure/Emergency_Net_ACFF.png" width="1024">
 
+The network can also be ported on andoid and itegraded with UAV applications to process the video feed locally.
+
 <img src="./Figure/Android_App.jpg" height="512">
 
 ## Citation Information
