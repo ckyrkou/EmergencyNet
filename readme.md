@@ -36,10 +36,15 @@ Use the following information to decode the model outputs:
 These models where trained using Keras v2.2 and TF v1.8.0
 
 ## Example Outputs
+The network can correctly classify some indicative examples from real world events such as
+- The Tesla Model X crash into a roadside barrier (2018)
+<img src="./Figure/Tesla.jpg" width="512">
 
-<img src="./Figure/Tesla.jpg" height="512">
-<img src="./Figure/Hawaii Vulcano.jpg" height="512">
-<img src="./Figure/bridge.jpg" height="512">
+- The Hawaii Volcano Eruption (2018)
+<img src="./Figure/Hawaii Vulcano.jpg" width="512">
+
+- The Miami bridge collapse on the road (2019)
+<img src="./Figure/bridge.jpg" width="512">
 
 ## Citation Information
 Please cite the following paper if you find this is useful for your work: 
