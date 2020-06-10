@@ -35,6 +35,12 @@ Use the following information to decode the model outputs:
 ## Prerequisites
 These models where trained using Keras v2.2 and TF v1.8.0
 
+## Example Outputs
+
+<img src="./Figure/Tesla.jpg" height="512">
+<img src="./Figure/Hawaii Vulcano.jpg" height="512">
+<img src="./Figure/bridge.jpg" height="512">
+
 ## Citation Information
 Please cite the following paper if you find this is useful for your work: 
 
