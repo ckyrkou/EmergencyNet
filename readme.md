@@ -18,6 +18,7 @@ Three models are provided:
 - EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ]()) | You will need to install efficientnet for keras through this [repo](https://github.com/qubvel/efficientnet)
 
 -- Load the models using the *load_model* function of keras and read the images with opencv's *imread* function (BGR format).
+-- Normalize the images using the formula: *x = (x / 127.5) - 1*
 
 Use the following information to decode the model outputs:
 | Class | Network Output Value |
@@ -33,14 +34,11 @@ These models where trained using Keras v2.2 and TF v1.8.0
 
 ## Example Outputs
 The network can correctly classify some indicative examples from real world events such as
-- The Tesla Model X crash into a roadside barrier (2018)
+- The Tesla Model X crash into a roadside barrier (2018) -> *traffic_incident* with probability 0.78
 <img src="./Figure/Tesla.jpg" width="512">
 
-- The Hawaii Volcano Eruption (2018)
+- The Hawaii Volcano Eruption (2018) -> *fire* with probability 0.9116652
 <img src="./Figure/Hawaii Vulcano.jpg" width="512">
-
-- The Miami bridge collapse on the road (2019)
-<img src="./Figure/bridge.jpg" width="512">
 
 The network can also be ported on andoid and itegraded with UAV applications to process the video feed locally.
 
