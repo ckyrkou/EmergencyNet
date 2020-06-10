@@ -18,7 +18,7 @@ The network can also be ported on andoid and itegraded with UAV applications to 
 ## Models
 Three models are provided:
 - EmegencyNet: The ACFF based convolutional neural network ([model📜 ]())
-- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ]())
+- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ]()) | Use the MobileNetV3 functions from this [repo](https://github.com/xiaochus/MobileNetV3)
 - EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ]()) | You will need to install efficientnet for keras through this [repo](https://github.com/qubvel/efficientnet)
 
 Load the models using the *load_model* function of keras
