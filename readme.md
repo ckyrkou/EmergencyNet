@@ -21,6 +21,9 @@ We provide three models:
 - MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ]())
 - EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ]())
 
+## Prerequisites
+These models where trained using Keras v2.2 and TF v1.8.0
+
 ## Citation Information
 Please cite the following paper if you find this is useful for your work: 
 
