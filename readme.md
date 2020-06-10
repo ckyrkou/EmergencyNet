@@ -15,11 +15,20 @@ The network can also be ported on andoid and itegraded with UAV applications to 
 
 <img src="./Figure/Android_App.jpg" height="512">
 
-## Model Download
-We provide three models:
+## Models
+Three models are provided:
 - EmegencyNet: The ACFF based convolutional neural network ([model📜 ]())
 - MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ]())
 - EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ]())
+
+Use the following information to decode the model outputs:
+| Class | Network Output Value |
+| ------------- | ------------- |
+| collapsed_building | 0 |
+| Fire | 1  |
+| Flood | 2  |
+| Normal/None | 3  |
+| Traffic Incident | 4  |
 
 ## Prerequisites
 These models where trained using Keras v2.2 and TF v1.8.0
