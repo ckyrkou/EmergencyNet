@@ -9,9 +9,9 @@ The ACFF macro block is used as a starting point to build a deep neural network 
 - Early downsampling: Downsampling is performed at all the initial layers. A combination of stride and maxpooling layers are used in an effort to reduce the loss of information by aggressive striding
 - Regularization: Due to the relatively small size of the dataset compared to databases such as ImageNet; additional regularization techniques are also incorporated
 
-<img src="./Figure/Emergency_Net_ACFF.png" width="512">
+<img src="./Figure/Emergency_Net_ACFF.png" width="1024">
 
-<img src="./Figure/Android_App.jpg" width="512">
+<img src="./Figure/Android_App.jpg" height="512">
 
 ## Citation Information
 Please cite the following paper if you find this is useful for your work: 
