@@ -13,9 +13,9 @@ The ACFF macro block is used as a starting point to build a deep neural network 
 
 ## Models
 Three models are provided:
-- EmegencyNet: The ACFF based convolutional neural network ([model📜 ]())
-- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ]()) | Use the MobileNetV3 functions from this [repo](https://github.com/xiaochus/MobileNetV3)
-- EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ]()) | You will need to install efficientnet for keras through this [repo](https://github.com/qubvel/efficientnet)
+- EmegencyNet: The ACFF based convolutional neural network ([model📜 ](https://drive.google.com/open?id=1qHbBLiIi0lXzlOhwegiJSvMGz3nkuthl))
+- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ](https://drive.google.com/open?id=1qkvUu5ATaP-KIuG5iA6keKaLg7Z_DF09)) | Use the MobileNetV3 functions from this [repo](https://github.com/xiaochus/MobileNetV3)
+- EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ](https://drive.google.com/open?id=1CfRuLQ3MGoPu1eVVtXvXs14MF9mhE-yH)) | You will need to install efficientnet for keras through this [repo](https://github.com/qubvel/efficientnet)
 
 -- Load the models using the *load_model* function of keras and read the images with opencv's *imread* function (BGR format).
 -- Normalize the images using the formula: *x = (x / 127.5) - 1*
