@@ -1,4 +1,4 @@
-[<img src="https://lh4.googleusercontent.com/_hWqjOlWzQAkPkgNZAZr6p4KsCHUazyO5zTHcmi5fa1G-iohjwoJzndOwL3IEZ9sJZm8aC2pqO8llGiYyPZhO1LPWfZuhMza_M1lAvDgBxs6ccTK8uQ=w1280" width="128" >](https://www.christoskyrkou.com/research-edge-vision-visual-ai)
+[<img src="https://lh6.googleusercontent.com/1hW56WC1c1X-aRojhHvbhRXv_zw1QXXOKHq_hgRN-zRnO17x1PeUIGmA7gsM-8uA1HnxsZfrZf0a22xfKA0_qYqiuKhsVdWf7SO-KBojPtraYOp3=w1280" width="128" >](https://www.christoskyrkou.com/research-edge-visual-ai)
 
 # EmergencyNet
 
