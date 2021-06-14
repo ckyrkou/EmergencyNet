@@ -11,6 +11,45 @@ The ACFF macro block is used as a starting point to build a deep neural network 
 
 <img src="./Figure/Emergency_Net_ACFF.png" width="1024">
 
+## Code
+A minimal code for training and ACFF network is provided within the <code> folder with additional supporting code.
+  - Model definition is in model.py
+  - Download your dataset and put it in the <data> folder. Put all images for each class in one folder. Training and Validation splits are handled through a keras generator. If you have already split the two then you need to change to write custom generators.
+  
+  ```
+./
+└───data
+│   │
+│   └───AIDER
+│       │   └───collapsed_building
+│   │   │    |    collapsed_building (1).jpg
+│   │   │    |    collapsed_building (2).jpg
+.
+.
+│       │   └───fire
+│   │   │    |    fire (1).jpg
+│   │   │    |    fire (2).jpg
+.
+.
+│       │   └───flooded_areas
+│   │   │    |    flooded_areas (1).jpg
+│   │   │    |    flooded_areas (2).jpg
+.
+.
+│       │   └───normal
+│   │   │    |    normal (1).jpg
+│   │   │    |    normal (2).jpg
+.
+.
+│       │   └───traffic_incident
+│   │   │    |    traffic_incident (1).jpg
+│   │   │    |    traffic_incident (2).jpg
+```
+  
+  - Change the definition of a network within the model.py file.
+  - Run train_ACFFNet.py to train a network.
+  - Run test_ACFFNet.py the model on a validation generator. You can build on this inference pipeline for your custom testing purposes.
+
 ## Models
 Three models are provided:
 - EmegencyNet: The ACFF based convolutional neural network ([model📜 ](https://drive.google.com/file/d/1qHbBLiIi0lXzlOhwegiJSvMGz3nkuthl/view?usp=sharing))
@@ -30,7 +69,7 @@ Use the following information to decode the model outputs:
 | Traffic Incident | 4  |
 
 ## Prerequisites
-These models where trained using Keras v2.2 and TF v1.8.0
+These models where trained using Keras v2.2 and TF v1.8.0. However, the training pipeline is updated to TF v2. See requirements.txt for more details.
 
 ## Example Outputs
 The network can correctly classify some indicative examples from real world events such as
