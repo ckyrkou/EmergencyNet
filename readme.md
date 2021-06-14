@@ -13,8 +13,12 @@ The ACFF macro block is used as a starting point to build a deep neural network 
 
 ## Code
 A minimal code for training and ACFF network is provided within the <code> folder with additional supporting code.
-  - Model definition is in model.py
-  - Download your dataset and put it in the <data> folder. Put all images for each class in one folder. Training and Validation splits are handled through a keras generator. If you have already split the two then you need to change to write custom generators.
+  - Model definition is in model.py.  
+  - Change the definition of a network within the model.py file.
+  - Run train_ACFFNet.py to train a network.
+  - Run test_ACFFNet.py the model on a validation generator. You can build on this inference pipeline for your custom testing purposes.
+
+Download and place your dataset and put it in the <data> folder. Put all images for each class in one folder. Training and Validation splits are handled through a keras generator. If you have already split the two then you need to change to write custom generators.
   
   ```
 ./
@@ -45,10 +49,8 @@ A minimal code for training and ACFF network is provided within the <code> folde
 │   │   │    |    traffic_incident (1).jpg
 │   │   │    |    traffic_incident (2).jpg
 ```
-  
-  - Change the definition of a network within the model.py file.
-  - Run train_ACFFNet.py to train a network.
-  - Run test_ACFFNet.py the model on a validation generator. You can build on this inference pipeline for your custom testing purposes.
+
+Outputs are the full model file, model weights, accuracy and loss curves. These are stored within the <results> folder.
 
 ## Models
 Three models are provided:
