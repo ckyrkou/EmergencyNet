@@ -1,5 +1,3 @@
-[<img src="https://lh6.googleusercontent.com/1hW56WC1c1X-aRojhHvbhRXv_zw1QXXOKHq_hgRN-zRnO17x1PeUIGmA7gsM-8uA1HnxsZfrZf0a22xfKA0_qYqiuKhsVdWf7SO-KBojPtraYOp3=w1280" width="128" >](https://www.christoskyrkou.com/research-edge-visual-ai)
-
 # EmergencyNet
 
 ## Overview
@@ -50,3 +48,5 @@ The network can also be ported on andoid and itegraded with UAV applications to 
 Please cite the following paper if you find this is useful for your work: 
 
 - C. Kyrkou and T. Theocharides, "EmergencyNet: Efficient Aerial Image Classification for Drone-Based Emergency Monitoring Using Atrous Convolutional Feature Fusion," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 1687-1699, 2020.[paper📜 ](https://ieeexplore.ieee.org/abstract/document/9050881)
+
+For more please visit: https://www.christoskyrkou.com
