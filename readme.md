@@ -1,4 +1,4 @@
-<img src="https://drive.google.com/file/d/1sIHKiVRNclRn4d0dJElKE3l2NKjo1ay4" width="256">
+<img src="https://drive.google.com/uc?export=view&id=1sIHKiVRNclRn4d0dJElKE3l2NKjo1ay4" width="256">
 
 # EmergencyNet
 
