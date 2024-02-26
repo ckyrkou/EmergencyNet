@@ -58,9 +58,9 @@ Outputs are the full model file, model weights, accuracy and loss curves. These 
 
 ## Models
 Three models are provided:
-- EmegencyNet: The ACFF based convolutional neural network ([model📜 ](https://drive.google.com/file/d/1qHbBLiIi0lXzlOhwegiJSvMGz3nkuthl/view?usp=sharing))
-- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ](https://drive.google.com/file/d/1qkvUu5ATaP-KIuG5iA6keKaLg7Z_DF09/view?usp=sharing)) | Use the MobileNetV3 functions from this [repo](https://github.com/xiaochus/MobileNetV3)
-- EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ](https://drive.google.com/file/d/1CfRuLQ3MGoPu1eVVtXvXs14MF9mhE-yH/view?usp=sharing)) | You will need to install efficientnet for keras through this [repo](https://github.com/qubvel/efficientnet)
+- EmegencyNet: The ACFF based convolutional neural network ([model📜 ](https://1drv.ms/u/s!AvIn9Gd2gTCVgY9F5-euMUb5kayQFQ?e=ODdbNc))
+- MobileNetV3: A convolutional neural network finetuned from the [MobileNetV3](https://arxiv.org/abs/1905.02244) architecture ([model📜 ](https://drive.google.com/file/d/1qkvUu5ATaP-KIuG5iA6keKaLg7Z_DF09/view?usp=sharing)) | Use the MobileNetV3 functions from this [repo](https://1drv.ms/u/s!AvIn9Gd2gTCVgY9d4cry6EXEfMLzKw?e=IdT6KE)
+- EfficientNet B0: A convolutional neural network finetuned from the [EfficientNet B0](https://arxiv.org/abs/1905.11946) architecture ([model📜 ](https://drive.google.com/file/d/1CfRuLQ3MGoPu1eVVtXvXs14MF9mhE-yH/view?usp=sharing)) | You will need to install efficientnet for keras through this [repo](https://1drv.ms/u/s!AvIn9Gd2gTCVgY9sadDkbFuwgSgxvw?e=iThpfF)
 
 -- Load the models using the *load_model* function of keras and read the images with opencv's *imread* function (BGR format).
 -- Normalize the images using the formula: *x = (x / 127.5) - 1*
